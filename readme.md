@@ -32,4 +32,5 @@ Tests added:
 9. Test Missing Password
 - [tests/test_users/test_user_creation.py::test_create_user_missing_fields](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L30)
 
-
+10. Test Invalid Email
+- [tests/test_users/test_user_creation.py::test_create_user_missing_fields](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L30)
