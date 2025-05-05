@@ -19,7 +19,7 @@ jobs:
       POSTGRES_DB: myappdb
       POSTGRES_SERVER: localhost
       POSTGRES_PORT: 5432
-      PYTHONPATH: ${{ github.workspace }}  # <-- This is the important fix!
+      PYTHONPATH: ${{ github.workspace }}/scalera_final
 
     services:
       postgres:
