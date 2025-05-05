@@ -23,4 +23,10 @@ Tests added:
 6. Test docs is accessible
 - [tests/analytics/test_retention.py::test_docs_accessible](https://github.com/daniellescalera/scalera_final/blob/main/tests/analytics/test_retention.py#L14)
 
-7. Test User Creation
+7. Test User Creation Success
+- [tests/test_users/test_user_creation.py::test_create_user_success](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L6)
+
+8. Test User Creation duplicate
+- [tests/test_users/test_user_creation.py::test_create_duplicate_user](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L18)
+
+
