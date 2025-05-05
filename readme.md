@@ -26,7 +26,10 @@ Tests added:
 7. Test User Creation Success
 - [tests/test_users/test_user_creation.py::test_create_user_success](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L6)
 
-8. Test User Creation duplicate
+8. Test User Creation Duplicate
 - [tests/test_users/test_user_creation.py::test_create_duplicate_user](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L18)
+
+9. Test Missing Password
+- [tests/test_users/test_user_creation.py::test_create_user_missing_fields](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L30)
 
 
