@@ -19,7 +19,7 @@ jobs:
       POSTGRES_DB: myappdb
       POSTGRES_SERVER: localhost
       POSTGRES_PORT: 5432
-      PYTHONPATH: ${{ github.workspace }}/scalera_final
+      PYTHONPATH: ${{ github.workspace }}/scalera_final  # <-- IMPORTANT: Fix the path
 
     services:
       postgres:
@@ -51,5 +51,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run pytest
+        working-directory: ./scalera_final   # <-- IMPORTANT: Run from correct folder
         run: |
           pytest --maxfail=1 --disable-warnings -q
