@@ -36,3 +36,15 @@ Tests added:
 
 10. Test Invalid Email
 - [tests/test_users/test_user_creation.py::test_create_user_missing_fields](https://github.com/daniellescalera/scalera_final/blob/main/tests/test_users/test_user_creation.py#L30)
+
+
+Issues Link: 
+
+## Closed Issues
+
+- [Issue #1 - Add validation tests for user input](https://github.com/daniellescalera/scalera_final/issues/1)
+- [Issue #2 - Prevent creating duplicate users](https://github.com/daniellescalera/scalera_final/issues/2)
+- [Issue #3 - Block login for unverified users](https://github.com/daniellescalera/scalera_final/issues/3)
+- [Issue #4 - Allow Admin to update user roles](https://github.com/daniellescalera/scalera_final/issues/4)
+- [Issue #5 - Add error handling for missing fields during user creation](https://github.com/daniellescalera/scalera_final/issues/5)
+
