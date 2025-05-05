@@ -17,3 +17,6 @@ Tests added:
 
 5. Test Retention Status Code
 - [tests/analytics/test_retention.py::test_retention_status_code](https://github.com/daniellescalera/scalera_final/blob/main/tests/analytics/test_retention.py#L6)
+
+6. Test docs is accessible
+- [tests/analytics/test_retention.py::test_docs_accessible](https://github.com/daniellescalera/scalera_final/blob/main/tests/analytics/test_retention.py#L14)
