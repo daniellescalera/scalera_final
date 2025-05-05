@@ -19,7 +19,7 @@ jobs:
       POSTGRES_DB: myappdb
       POSTGRES_SERVER: localhost
       POSTGRES_PORT: 5432
-      PYTHONPATH: ${{ github.workspace }}  # <-- This fixes the "no module named app" error
+      PYTHONPATH: ${{ github.workspace }}  # <-- This is the important fix!
 
     services:
       postgres:
